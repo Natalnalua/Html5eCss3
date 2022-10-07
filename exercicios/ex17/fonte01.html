@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style> 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+               Medidas Absolutas:
+               cm, mm, in(polegadas), px, pt(ponto), pc.
+            
+               Medidas Relativas:
+               em, ex, rem, vw, vh, %.
+
+               16px geralmente = 1em (Recomendado para sites).
+            */
+            font-size: 1em; /* Tamanho da fonte */
+            /* 
+               font-weight: normal; Peso da fonte (lighter, normal, bold, bolder)
+               font-style: normal; Coloca em itálico
+               text-decoration: underline; Deixa sublinhado
+            */
+                        
+        }
+
+        h1 {
+            /* Forma completa
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorthand font - Forma abreviada.
+
+             - font-style -> font-weight -> font-size -> font-family */
+             font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: italic bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi eos repellat porro rem numquam esse maiores at iure deserunt perspiciatis tempora ut, nostrum temporibus quis. Repudiandae temporibus at laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, fugit pariatur? Delectus accusamus temporibus consectetur provident quae quo dolorum nulla necessitatibus optio magni voluptatum, eum dolores! Magnam vitae amet atque!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis obcaecati non ullam atque harum, quis voluptatum. Incidunt amet nam architecto accusantium nulla rem voluptate, tempora sunt! Error sunt dolor odit?</p>
+    
+</body>
+</html>
